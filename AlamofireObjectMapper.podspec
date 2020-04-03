@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "AlamofireObjectMapper"
-  s.version = "6.0.0"
+  s.version = "6.0.1"
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.summary = "An extension to Alamofire which automatically converts JSON response data into swift objects using ObjectMapper"
   s.homepage = "https://github.com/tristanhimmelman/AlamofireObjectMapper"
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.source_files = 'AlamofireObjectMapper/**/*.swift'
-  s.dependency 'Alamofire', '~> 5.0.0-beta.2'
-  s.dependency 'ObjectMapper', '~> 3.4'
+  s.dependency 'Alamofire', '~> 5.0.0'
+  s.dependency 'ObjectMapper', '~> 3.5.2'
 end
